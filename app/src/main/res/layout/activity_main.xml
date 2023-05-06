@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Using linear layout with vertical orientation and center gravity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4D175"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--ImageView used for showing pictures along with questions-->
+
+    <!--TextView used for showing questions on screen-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Math Questions"
+        android:layout_marginBottom="350dp"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/questionNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Question Number : 1"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/q1"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:backgroundTint="#E33328"
+            android:text="@string/false_text"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#5BD91B"
+            android:text="@string/true_text"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7A312C"
+            android:text="@string/prev_text" />
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5B7E46"
+            android:text="@string/next_text" />
+
+
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:textSize="35dp"
+        android:id="@+id/exit"
+        android:onClick="onClick" />
+</LinearLayout>
+

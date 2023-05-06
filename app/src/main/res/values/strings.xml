@@ -1,0 +1,19 @@
+<resources>
+    <!--All the string resources come here including Questions and title -->
+    <string name="app_name">Assignment 1</string>
+    <string name="correct"><b>You Get </b> \n
+						<b>%1$d</b>Point from 6</string>
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="wrong_answer">Wrong Answer</string>
+    <string name="q1">3 + 7 = 10 ?</string>
+    <string name="q2">17 More Than 27 ?</string>
+    <string name="q3">4 + 5 = 9 ?</string>
+    <string name="q4">Number 6 Less Than 10 ?</string>
+    <string name="q5">9 + 20 = 92 ?</string>
+    <string name="q6">4 - 2 = 6 ?</string>
+    <string name="next_text">next</string>
+    <string name="prev_text">previous</string>
+
+</resources>
